@@ -12,10 +12,10 @@ function App() {
     };
   }, []);
   return (
-    <main className='bg-[hsl(257,40%,49%)] min-h-screen lg:flex md:bg-[url(/bg-desktop.svg)] lg:bg-cover lg:bg-center lg:px-16 lg:gap-14'>
-      <section className='bg-[url(/bg-mobile.svg)] md:bg-[url(none)] bg-cover flex flex-col justify-evenly h-[320px] max-h-[373px] xs:h-[373px] lg:h-screen lg:min-h-screen px-6 xs:px-8 lg:px-0 lg:py-10 1.5xl:p-0 lg:min-w-[490px] lg:max-w-[709px] lg:flex-1'>
+    <main className='bg-[hsl(257,40%,49%)] min-h-screen lg:flex md:bg-[url(/bg-desktop.svg)] lg:bg-cover lg:bg-center lg:px-16 lg:gap-14 2xl:px-36 2xl:gap-36'>
+      <section className='bg-[url(/bg-mobile.svg)] md:bg-[url(none)] bg-cover flex flex-col justify-evenly h-[320px] max-h-[373px] xs:h-[373px] lg:h-screen lg:min-h-screen px-6 xs:px-8 lg:px-0 lg:py-10 1.5xl:p-0 lg:min-w-[490px] lg:max-w-[709px] 2xl:max-w-[800px] lg:flex-1'>
         <i><img className='w-32 md:w-40' src="/logo.svg" alt="" /></i>
-        <picture className='lg:max-w-[709px]'><img className='xs:max-w-[310px] md:max-w-[350px] lg:min-w-[490px] lg:max-w-full block mx-auto lg:mx-0' src="/illustration-mockups.svg" alt="" /></picture>
+        <picture className='lg:max-w-[709px] 2xl:max-w-[800px]'><img className='xs:max-w-[310px] md:max-w-[350px] lg:min-w-[490px] lg:max-w-full block mx-auto lg:mx-0' src="/illustration-mockups.svg" alt="" /></picture>
       </section>
       {/* <section className='bg-[url(/bg-mobile.svg)] lg:bg-[url(none)] w-auto bg-cover max-h-[420px] lg:w-auto lg:h-auto px-10 lg:px-0'>
         <i><img className='w-32 pt-8 pb-14' src="/logo.svg" alt="" /></i>
